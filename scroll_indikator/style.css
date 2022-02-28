@@ -1,0 +1,69 @@
+html {
+  height: 100%;
+  background-color: rgb(37, 33, 92);
+}
+body {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+#navbar {
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 5px;
+}
+
+#navbar a:first-child {
+  margin-left: 50px;
+  border-left: 1px solid white;
+}
+
+#navbar a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  line-height: 100px;
+  border-right: 1px solid white;
+  padding: 20px;
+}
+
+#navbar a:hover {
+  color: rgb(243, 124, 55);
+}
+
+/* scroll indikator progres bar */
+#progress-container {
+  width: 100%;
+  height: 8px;
+  background-color: white;
+}
+
+#progress-bar {
+  height: 8px;
+  width: 0;
+  background-color: rgb(243, 124, 55);
+}
+
+/* main contain area */
+#main {
+  width: 80%;
+  margin: 50px auto;
+  background-color: rgb(89, 86, 134);
+  padding: 50px;
+  z-index: -1;
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 28px;
+}
